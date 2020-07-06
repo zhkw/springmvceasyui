@@ -1,0 +1,70 @@
+[class^="icon-"], [class*=" icon-"]{
+	line-height:24px;
+	top:6px;
+}
+.breadcrumbNav{
+	padding-left:10px;
+	font-size: 10pt;
+}
+.breadcrumbNav a{
+	margin-left:10px;
+	margin-right:10px;
+}
+.enfi-grid-panel{
+	margin-top:5px;
+	width:100%;
+	min-height:500px;
+	padding:10px;
+}
+.enfi-grid-panel .grid-buttons{
+	width:100%;
+}
+.enfi-grid-panel .grid-buttons .grid-button{
+	width:50%;
+	float:left;
+}
+.enfi-grid-panel .grid-buttons .grid-button .status{
+	margin-left:20px;
+}
+.enfi-grid-panel .grid-data{
+	margin-top:30px;
+}
+.enfi-grid-panel .grid-data .datagrid-view{
+	min-height:500px;
+}
+.enfi-info-panel .datagrid-view{
+	min-height:150px;
+}
+.enfi-info-panel{
+	margin-top:5px;
+	width:100%;
+	min-height:200px;
+	padding:10px;
+}
+.materialdlg{
+	width:1000px;
+	height:500px;
+	padding:10px
+}
+.materialdlg  .easyui-tabs  .materal-category{
+	width:30%;
+	float:left;
+}
+.materialdlg  .easyui-tabs  .materal-list-info{
+	width:68%;
+	float:right;
+}
+.materialdlg  .datagrid{
+	margin-top:5px;
+}
+.materialdlg .datagrid-view{
+	min-height:380px;
+}
+.tabs-panels{
+	min-height:200px;
+}
+.tree{
+	height:380px;
+	overflow:auto;
+	margin-top:10px;
+}

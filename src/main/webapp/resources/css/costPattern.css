@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+.layout{
+		border-radius:4px 4px 3px 3px
+	}
+	.iconBtn{
+		margin-left: 20px;
+		font-size: 12px;
+		width: 80px;
+	 	border-radius:5px;
+	}
+	/* 阶段 */
+	.stagelis{
+	float: left;
+	margin-left: 10px;
+	font-size: 16px;
+	text-align: center;
+	cursor:pointer;
+	font-family:"微软雅黑";
+	font-size:14px;
+	}
+	.stagehov{
+	color: #6DB3DE;
+	border-bottom: solid 2px #6DB3DE;
+	}
+	
+	/* 指标等级 */
+	.gradebtn{
+	float: left;
+	margin-right: 10px;
+	font-size: 13px;
+	text-align: center;
+	background-color: #D7D4CF;
+	color: white;
+	}
+	.checkGradebtn{
+	float: left;
+	margin-right: 10px;
+	font-size: 13px;
+	text-align: center;
+	background-color: #6DB3DE;
+	color: white;
+	}
+	
+	
+	/*datagrid上的查询条样式*/
+    .dgsearch {
+    	/*min-width: 800px;*/
+    	overflow: auto;
+    	clear: both;
+    	margin: 5px;
+    }
+    
+    .dgsearch .dgsearch-next {
+    	width: 380px;
+    	float: left;
+    	height:25px;
+    	margin-bottom:4px;
+    }
+    
+    .dgsearch .dgsearch-button {
+    	float: left;
+    	text-align:center;
+    	width: 60px;
+    	margin-left: 120px;
+    }
+    
+    .dgsearch .dgsearch-next .label {
+    	text-align: right;
+    	width: 100px;
+    	float: left;
+    	margin-right: 5px;
+    	line-height: 20px;
+    }
+    
+    .dgsearch .dgsearch-next .dgsearch-input {
+    	width: 140px;
+    	float: left;
+    	height: 18px;
+    	border: 1px solid #95B8E7;
+    }
+    
+    .dgsearch .dgsearch-next .dgsearch-combox{
+        width: 140px;
+    	float: left;
+    	height: 20px;
+    	border: 1px solid #95B8E7;
+    }
+    
+	.dgsearch .dgsearch-next .dgsearch-textbox {
+    	width: 140px;
+    	float: left;
+    	height: 20px;
+    	border: 1px solid #95B8E7;
+    }
+    .dgsearch .dgsearch-next .dgsearch-numberbox {
+    	width: 65px;
+    	float: left;
+    	height: 20px;
+    	border: 1px solid #95B8E7;
+    }
+    .search-a{
+   		margin-left: 100px;
+    }
+    .search-a span{
+    	background-color: #6DB3DE;
+    	color: white;
+   }
+   .subkey-a span{
+    	background-color: #6DB3DE;
+    	color: white;
+   }
+/*datagrid上的查询条样式*/

@@ -1,0 +1,26 @@
+.enfi-grid-panel {
+    margin-top: 5px;
+    width: 100%;
+    min-height: 500px;
+    padding: 10px;
+}
+.breadcrumbNav{
+	padding-left:10px;
+	font-size: 10pt;
+}
+.breadcrumbNav a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pbsTemplateSearch{
+	float:left;
+}
+.grid-buttons  .grid-button a{
+	margin-left:20px;
+}
+.grid-data{
+	margin-top:10px;
+}
+.enfi-grid-panel  .grid-data  .datagrid-view {
+    min-height: 700px;
+}

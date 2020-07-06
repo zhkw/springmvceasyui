@@ -1,0 +1,20 @@
+/* datagrid */
+.datagrid-header-row .datagrid-cell {
+    line-height:normal;
+    height:auto;
+    white-space: normal;
+}
+.datagrid-header .datagrid-cell span {
+    font-weight: bold;
+}
+.datagrid-cell {
+	text-overflow:ellipsis;
+}
+/* linkbutton */
+.l-btn-icon {
+	margin-top: -6px;
+}
+/* menu-icon */
+.menu-icon {
+	margin-top: -7px;
+}

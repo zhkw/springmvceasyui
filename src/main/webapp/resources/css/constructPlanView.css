@@ -1,0 +1,75 @@
+.breadcrumbNav{
+	padding-left:10px;
+	font-size: 10pt;
+}
+.breadcrumbNav a{
+	margin-left:10px;
+	margin-right:10px;
+}
+.easyui-layout{
+	width:100%;
+	min-height:800px;
+	margin-top:8px;
+}
+.project_tree{
+	width:250px;
+}
+.bdst{
+	width:100%;
+	min-height:300px;
+	/*margin-top:10px;*/
+}
+.bdst-info-tabs{
+	width:100%;
+}
+.bdst-info-tabs .bdst-info-tab{
+	min-height:200px;
+}
+.content .content_panel{
+	height:100%!important;
+}
+.project_tree  .searchbox  input{
+	height:24px!important;
+}
+.project_tree  .searchbox .textbox-icon{
+	height:24px!important;
+}
+.content .content_panel .searchbox  input{
+	height:24px!important;
+}
+.content .content_panel .searchbox .textbox-icon{
+	height:24px!important;
+}
+.bdst-info-tabs .bdst-tab{
+	padding:0 10px 10px 0;
+}
+.bdst-button{
+	margin-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.subcontract-dialog .searchbox {
+	margin-top:2px;
+	margin-bottom:2px;
+}
+.subcontract-dialog   .searchbox  input{
+	height:24px!important;
+}
+.subcontract-dialog   .searchbox  .textbox-icon{
+	height:24px!important;
+}
+.subcontract-dialog .hand-input-name .textbox,.subcontract-dialog .hand-input-license .textbox{
+	margin: 2px 8px 6px 2px;
+	border-radius: 2px;
+	height:26px;
+}
+#major-pbsnode-info .major-pbsnode-tree{
+	width:30%;
+	min-height:250px;
+	float:left;
+}
+#major-pbsnode-info .pbsnode-material{
+	width:70%;
+	min-height:250px;
+	float:left;
+}

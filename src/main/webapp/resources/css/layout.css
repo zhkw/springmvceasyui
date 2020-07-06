@@ -1,0 +1,332 @@
+/*-----------------------------------
+| @Description: ²¼¾ÖÑùÊ½
++------------------------------------
+| @Author: LCore
++------------------------------------
+| @Update: LCore(2014-07-14 18:43pm)
++----------------------------------*/
+
+@charset "utf-8";
+
+/*-----------------------------------
+                                          ¶¥²¿
+-----------------------------------*/
+
+.top {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #36A9E1;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+    -moz-background-size:100% 100%;  
+    background-size:100% 100%;  
+}
+
+
+.top a {
+    color: #fff;
+}
+.top .title {
+    float: left;
+    heigth:40px;
+    margin-left:60px;
+    line-height:40px;
+    display: inline;
+}
+.top .title span {
+    font-size: 18px;
+    color: #fff;
+}
+.top .topUl {
+    float: right;
+    display: inline;
+    margin-right:20px;
+}
+
+.top .topUl li {
+    float: right;
+    padding: 1px 5px;
+    display: block;
+    font-size: 12px;
+    height: 24px;
+    line-height:24px;
+    position: relative;
+}
+
+.top .topUl a {
+    display: block;
+    height: 12px;
+    line-height: 12px;
+    float: left;
+    margin-top: 12px;
+}
+
+
+.topUserInfo a {
+    padding: 0px 6px 0 2px;
+}
+.topSearch input {
+    width: 100px;
+    height: 21px;
+    display: block;
+    margin: 9px 0;
+    float: left;
+    background: url(../images/header/u13.png) no-repeat -79px -7px;
+    border: none;
+    text-indent: 2px;
+    font-size: 12px;
+}
+
+#searchBtn {
+    width: 20px;
+    height: 21px;
+    float: left;
+    margin-left: -8px;
+    margin-top: 9px;
+    background: url(../images/header/u13.png) no-repeat -190px -7px;
+    display: block;
+}
+
+
+.topUl:after {
+    display: block;
+    content: "";
+    clear: both;
+    visibility: hidden;
+    zoom: 1;
+}
+
+.topUl ul {
+    display: none;
+}
+
+/*-----------------------------------
+                                    µ¼º½²Ëµ¥
+-----------------------------------*/
+
+.topNav {
+    width: 100%;
+    height: 34px;
+    line-height:34px;
+    background-color: #147EB1;
+    margin: 0px auto 5px auto;
+    z-index:2222;
+}
+.topNav ul {
+    float:right;
+    margin-right:20px;
+    display: inline;
+    margin-left: 3px;
+    height: 34px;
+    line-height:34px;
+     z-index:2222;
+}
+.topNav ul li {
+    float: left;
+    display: inline;
+    height: 30px;
+    line-height:30px;
+    min-width: 100px;
+    width: auto;
+    margin:2px auto 2px auto;
+    position:relative;
+     z-index:2222;
+}
+.topNav ul li:hover {
+}
+.topNav ul li a {
+    float: left;
+    display: block;
+    width: auto;
+    min-width: 100px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+     z-index:2222;
+}
+.topNav ul li a:hover{
+    color: #fff;
+     z-index:2222;
+}
+/* 二级菜单 */
+.topNav li ul {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    left: 0;
+    margin: 0px;
+    padding: 0px;
+    z-index:2222;
+}
+.topNav li ul li {
+    width: 100%;
+    background-image: none;
+    background: #147EB1;
+    margin: 0;
+    z-index:2222;
+}
+.topNav li ul li a {
+    width: 100%;
+    height:26px;
+    font-size: 12px;
+    z-index:2222;
+}
+.topNav li ul li:hover {
+    background-image: none;
+    background:  #36A9E1;
+    color: #fff;
+    z-index:2222;
+}
+/* 三级菜单 */
+.topNav li ul li ul {
+    position: absolute;
+    height: auto;
+    line-height: auto;
+    display: block;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    z-index: 2222;
+}
+.topNav li ul li ul li {
+    width: 100%;
+    background: #147EB1;
+    margin: 0;
+    z-index: 2222;
+}
+.topNav li ul li ul li a {
+    width: 100%;
+    height:26px;
+    font-size: 12px;
+    z-index:2222;
+}
+.topNav li ul li ul li:hover {
+    background-image: none;
+    background:  #36A9E1;
+    color: #fff;
+    z-index:2222;
+}
+/*-----------------------------------
+                                             µ×²¿
+-----------------------------------*/
+
+.footer {
+    width:100%;
+    bottom: 0px;
+    text-align: center;
+    color:#b2b2b2;
+    background:#f5f5f5;
+    height:34px;
+    padding:0 0 0 0;
+}
+.logo {
+    text-align: center;
+    color: #b2b2b2;
+    background: #f5f5f5;
+    font-size: 12pt;
+    height: 34px;
+    line-height: 34px;
+}
+
+.footer a {
+    color: #b2b2b2;
+}
+
+/*----------------------------------
+                                            body
+----------------------------------*/
+html {
+    height:100%;
+}
+body {
+    min-width:1300px;
+    min-height:100%;
+    height:100%;
+    font-family: "Microsoft Yahei";
+    font-size:14px;
+}
+header {
+    height: 75px;
+    width: 100%;
+}
+footer {
+    height: 34px;
+    width: 100%;
+}
+.container-main {
+    height: calc(100% - 109px);
+}
+.infoTitle {
+    text-align: left;
+    background: #F5F5F5;
+    width: calc(100% - 20px);
+    height: 22px;
+    font-size: 10pt;
+    padding-left: 20px;
+    border: none;
+}
+.container-gray {
+    background:#f5f5f5;
+}
+/* --------- left & right layout -------------*/
+.sidebar-left {
+    min-width: 220px;
+    width: 220px;
+    min-height: 600px;
+    height:calc(100% - 22px);
+    padding:0 10px 0 10px;
+    float:left;
+}
+.content0 {
+    margin: 0px 0px 0px 240px;
+    min-height: 600px;
+    height:calc(100% - 22px);
+    width: auto;
+    padding:0 10px 0 0;
+}
+/*--------------------------------------------*/
+/*---------------- single layout0 ------------*/
+.outWrapper {
+    width: auto;
+    min-height:600px;
+    height: calc(100% - 26px);
+    padding:0 10px 0 10px;
+}
+/*--------------------------------------------*/
+/* --------- top & buttom layout -------------*/
+.content1 {
+    width: calc(100% - 20px);
+    height: 40%;
+    padding: 0px 10px 10px 10px;
+}
+.content2 {
+    width: calc(100% - 20px);
+    height: 60%;
+    padding: 0px 10px 10px 10px;
+}
+/*--------------------------------------------*/
+/*------------ two-row layout ----------------*/
+.content3 {
+    width:98%;
+    height:140px;
+    padding:10px;
+}
+/*---------------------------------------------*/
+/* ------------ tab panel layout --------------*/
+.content4 {
+    width:98%;
+    height:280px;
+    padding:10px;
+}
+.whiteblock {
+    padding-left:5px;
+    padding-right:5px;
+    height:99.8%;
+    width:calc(100% - 10px);
+    background:#FFF;
+    border:solid #ddd;
+    border-width:0 2px 2px 0;
+    overflow: hidden;
+}
